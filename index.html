@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Para Vale ♡</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================
+         FONDO
+    ========================================== -->
+
+    <div class="background-glow"></div>
+
+    <div class="stars"></div>
+
+
+    <!-- =========================================
+         CORAZONES FLOTANTES
+    ========================================== -->
+
+    <div class="floating-hearts">
+
+        <span>♡</span>
+        <span>♡</span>
+        <span>♡</span>
+        <span>♡</span>
+        <span>♡</span>
+        <span>♡</span>
+        <span>♡</span>
+        <span>♡</span>
+        <span>♡</span>
+        <span>♡</span>
+
+    </div>
+
+
+    <!-- =========================================
+         MÚSICA
+    ========================================== -->
+
+    <audio id="music" loop>
+
+        <source
+            src="music/teregalo.mp3" type="audio/mpeg">
+           
+
+    </audio>
+
+
+    <!-- =========================================
+         CONTROL DE MÚSICA
+    ========================================== -->
+
+    <button class="music-control" id="musicButton">
+
+        <span class="music-icon">♫</span>
+
+        <span id="musicText">
+            Dale play 🎵
+        </span>
+
+    </button>
+
+
+    <!-- =========================================
+         EXPERIENCIA
+    ========================================== -->
+
+    <main id="experience">
+
+
+        <!-- =====================================
+             ESCENA 1
+        ====================================== -->
+
+        <section class="scene scene-one active">
+
+
+            <div class="moon"></div>
+
+
+            <div class="intro-content">
+
+                <p class="small-label">
+                    PARA MI MONITA LINDA
+                </p>
+
+
+                <h1>
+
+                    La mejor historia<br>
+
+                     surge en el momento<br>
+
+                    <span>menos esperado.</span>
+
+                </h1>
+
+
+                <div class="line"></div>
+
+
+                <p class="intro-text">
+
+                    Y luego está la nuestra,
+                    que poco a poco se convierte
+                    en una de las partes más especiales
+                    de mi vida.
+
+                </p>
+
+
+                <button
+                    class="primary-button"
+                    id="startButton">
+
+                    <span>
+                        Empieza
+                    </span>
+
+                    <span class="arrow">
+                        →
+                    </span>
+
+                </button>
+
+            </div>
+
+
+            <div class="scroll-indicator">
+
+                <span>
+                    UNA PEQUEÑA MUESTRA DE MI AMOR POR TI
+                </span>
+
+                <div></div>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             ESCENA 2
+        ====================================== -->
+
+        <section class="scene scene-two">
+
+
+            <div class="number">
+                01
+            </div>
+
+
+            <div class="letter-container">
+
+
+                <p class="small-label">
+                  AUNQUE ME CUESTE EXPRESARLO CON PALABRAS, TE LO DEJO POR ESCRITO ACÁ
+                </p>
+
+
+                <h2>
+
+                    A veces las palabras
+                    se me quedan <em>cortas.</em>
+
+                </h2>
+
+
+                <div class="silver-line"></div>
+
+
+                <p class="letter-text">
+
+                    Pero desde que apareciste en mi vida,
+                    hay momentos que simplemente
+                    se sienten diferentes.
+
+                </p>
+
+
+                <p class="letter-text">
+
+                    No porque todo tenga que ser perfecto,
+                    sino porque ahora tengo a alguien con
+                    quien compartir las risas, los silencios,
+                    los días buenos y también los difíciles.
+
+                </p>
+
+
+                <p class="letter-text">
+
+                    Y creo que eso es justamente
+                    lo bonito de tenerte.
+
+                </p>
+
+
+                <button
+                    class="next-button"
+                    data-next="2">
+
+                    Sigue sigue,
+                    Acabas de empezar a leer mi amor
+
+                    <span>
+                        →
+                    </span>
+
+                </button>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             ESCENA 3
+        ====================================== -->
+
+        <section class="scene scene-three">
+
+
+            <div class="number">
+                02
+            </div>
+
+
+            <div class="center-message">
+
+
+                <div class="quote-mark">
+                    “
+                </div>
+
+
+                <h2>
+
+                    No sé exactamente
+                    qué nos espere en un futuro...
+
+                </h2>
+
+
+                <p>
+
+                    Pero estoy seguro y decidido a seguir
+                    descubriéndolo contigo.
+
+                </p>
+
+
+                <div class="heart-container">
+
+                    <div class="heart">
+                        ♥
+                    </div>
+
+                </div>
+
+
+                <button
+                    class="next-button"
+                    data-next="3">
+
+                    Dame un besito y sigue leyendo
+
+                    <span>
+                        →
+                    </span>
+
+                </button>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             ESCENA 4
+        ====================================== -->
+
+        <section class="scene scene-four">
+
+
+            <div class="number">
+                03
+            </div>
+
+
+            <div class="reasons-container">
+
+
+                <p class="small-label">
+                    Y SI ME PREGUNTAN POR QUÉ TÚ...
+                </p>
+
+
+                <h2>
+
+                    Podría darte mil razones, pero por ahora,<br>
+
+                    <span>
+                      ten presente las más importantes.
+                    </span>
+
+                </h2>
+
+
+                <div class="reasons">
+
+
+                    <div class="reason">
+
+                        <span>
+                            01
+                        </span>
+
+                        <p>
+                            Por todo lo que bonito que causas en mi,
+                            pero en especial, tu forma de hacerme
+                            sonreír incluso sin intentarlo.
+                        </p>
+
+                    </div>
+
+
+                    <div class="reason">
+
+                        <span>
+                            02
+                        </span>
+
+                        <p>
+                            Por esos pequeños detalles
+                            que probablemente ni notas, 
+                            causando un anhelo inexplicable de 
+                            vivir muchas aventuras a tu lado.
+                        </p>
+
+                    </div>
+
+
+                    <div class="reason">
+
+                        <span>
+                            03
+                        </span>
+
+                        <p>
+                            Por la tranquilidad que siento
+                            desde que estoy contigo, también porque 
+                            reviviste mis emociones.
+                        </p>
+
+                    </div>
+
+
+                    <div class="reason">
+
+                        <span>
+                            04
+                        </span>
+
+                        <p>
+                            Y simplemente...
+                            porque eres tú.
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+                <button
+                    class="next-button"
+                    data-next="4">
+
+                    Una última cosa...
+
+                    <span>
+                        →
+                    </span>
+
+                </button>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             ESCENA FINAL
+        ====================================== -->
+
+        <section class="scene final-scene">
+
+
+            <div class="final-glow"></div>
+
+
+            <div class="final-content">
+
+
+                <p class="small-label">
+                    Y MIENTRAS PASA EL TIEMPO...
+                </p>
+
+
+                <div class="final-symbol">
+                    ♡
+                </div>
+
+
+                <h2>
+
+                    Mira cuánto tiempo
+                    llevamos escribiendo
+                    nuestra historia.
+
+                </h2>
+
+
+                <!-- =================================
+                     CONTADOR
+                ================================== -->
+
+                <div class="counter">
+
+
+                    <div class="counter-item">
+
+                        <span
+                            id="days">
+                            0
+                        </span>
+
+                        <small>
+                            DÍAS
+                        </small>
+
+                    </div>
+
+
+                    <div class="counter-item">
+
+                        <span
+                            id="hours">
+                            0
+                        </span>
+
+                        <small>
+                            HORAS
+                        </small>
+
+                    </div>
+
+
+                    <div class="counter-item">
+
+                        <span
+                            id="minutes">
+                            0
+                        </span>
+
+                        <small>
+                            MINUTOS
+                        </small>
+
+                    </div>
+
+
+                    <div class="counter-item">
+
+                        <span
+                            id="seconds">
+                            0
+                        </span>
+
+                        <small>
+                            SEGUNDOS
+                        </small>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="final-line"></div>
+
+
+                <h1>
+
+                    Lo mejor es que
+
+                    <span>
+                        esta historia
+                    </span>
+
+                    recién comienza.
+
+                </h1>
+
+
+                <p class="final-message">
+
+                    Y espero poder estar ahí para
+                    escribir contigo cada capítulo
+                    que todavía nos falta.
+
+                </p>
+
+
+                <p class="signature">
+
+                    Con todo mi cariño,
+
+                    <span>
+                        Samuel
+                    </span>
+
+                </p>
+
+
+                <button
+                    class="restart-button"
+                    id="restartButton">
+
+                    ↻ &nbsp; Empieza de nuevo mi amor
+                     <div class="heart">
+                        ♥
+                    </div>
+
+                </button>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
